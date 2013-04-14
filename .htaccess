@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*\.(gif|jp?g|png))$ watermark.php?image=$1&watermark=watermark.jpg [NC]
